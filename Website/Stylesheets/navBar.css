@@ -1,21 +1,32 @@
 ul{
+    margin-left: auto;
+    margin-right: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
-    gap: 25px;
+    background-color: rgb(77, 77, 100);
 }
 
 li{
     float: left;
+    
 }
 
-a{
+li a{
     display: block;
-    padding: 8px;
+    padding: 20px;
+    text-align: center;
+    padding: 14px, 16px;
     text-decoration: none;
-    gap: 40px;
+}
+
+li a:hover:not(.active){
+    background-color: aqua;
+}
+
+.active{
+    background-color: black;
 }
 
 
