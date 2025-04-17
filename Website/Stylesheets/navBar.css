@@ -4,6 +4,7 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: blue;
+    gap: 25px;
 }
 
 li{
@@ -13,7 +14,6 @@ li{
 a{
     display: block;
     padding: 8px;
-    background-color: #912020;
     text-decoration: none;
 }
 
